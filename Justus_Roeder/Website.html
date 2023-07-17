@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <p id = "None"> Hello World</p> 
+        <button id="a" onclick="myFunction()">Click</button>    
+    </head>
+</html>
+<script> 
+
+document.getElementById("a").addEventListener("click", myFunction); 
+function myFunction() {
+  document.getElementById("None").innerHTML = "Bye World";
+}
+</script>
